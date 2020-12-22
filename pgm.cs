@@ -7,9 +7,9 @@ namespace calculator1App
         {
             
         }
-        public int add(int a,int b)
+        public int product(int a,int b)
         {
-            return a+b;
+            return a*b;
         }
     }
 }
