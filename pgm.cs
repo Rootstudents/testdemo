@@ -11,5 +11,9 @@ namespace calculator1App
         {
             return a+b;
         }
+        public double divi(int a,int b)
+        {
+            return (double)a/b;
+        }
     }
 }
