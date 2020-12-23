@@ -15,9 +15,13 @@ namespace calculator1App
         {
             return a/b;
         }
-        public double mul(int a,int b)
+        public double min(int a,int b)
         {
-            return a*b;
+            return a-b;
+        }
+        public double min(int a,int b)
+        {
+            return a-b;
         }
     }
 }
