@@ -7,6 +7,10 @@ namespace calculator1App
         {
             
         }
+        public double mul(int a,int b)
+        {
+            return a*b;
+        }
         public int add(int a,int b)
         {
             return a+b;
@@ -15,10 +19,11 @@ namespace calculator1App
         {
             return a/b;
         }
-        public double mul(int a,int b)
+        public double mod(int a,int b)
         {
-            return a*b;
+            return a%b;
         }
+
         public double sub(int a,int b)
         {
             return a-b;
